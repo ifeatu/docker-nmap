@@ -4,7 +4,7 @@
 
 This is a dockerized version of [Nmap](http://nmap.org/ "Nmap: the Network Mapper - Free Security Scanner").
 
-The easiest way to use this image as a replacement for an installed version of `nmap` is to create an alias.
+The easiest way to use `nmap` is to create an alias.
 
 ```bash
 alias nmap='docker run -it --rm golden/nmap'
